@@ -32,7 +32,7 @@
         <java.version>17</java.version>
         <spring-shell.version>2.1.2</spring-shell.version>
         <openrewrite.version>7.29.0</openrewrite.version>
-        <openrewrite.spring.version>4.26.0</openrewrite.spring.version>
+        <openrewrite.spring.version>4.31.0</openrewrite.spring.version>
         <rewrite-migrate-java.version>1.12.0</rewrite-migrate-java.version>
         <spring-boot.version>2.7.4</spring-boot.version>
         <progressbar.version>0.9.5</progressbar.version>
@@ -325,14 +325,7 @@
         <module>applications/spring-shell</module>
         <module>applications/rest-service</module>
         <module>components/openrewrite-spring-recipes</module>
-        <module>components/sbm-recipes-boot-upgrade</module>
-        <module>components/sbm-recipes-spring-cloud</module>
-        <module>components/sbm-recipes-spring-framework</module>
-        <module>components/sbm-recipes-jee-to-boot</module>
-        <module>components/sbm-recipes-mule-to-boot</module>
         <module>components/sbm-support-boot</module>
-        <module>components/sbm-support-weblogic</module>
-        <module>components/sbm-support-jee</module>
         <module>components/sbm-openrewrite</module>
         <module>components/sbm-core</module>
         <module>components/test-helper</module>

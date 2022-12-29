@@ -31,16 +31,6 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.sbm</groupId>
-            <artifactId>sbm-recipes-spring-framework</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.sbm</groupId>
-            <artifactId>sbm-recipes-jee-to-boot</artifactId>
-            <version>0.12.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.sbm</groupId>
             <artifactId>sbm-core</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -59,11 +49,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.sbm</groupId>
-            <artifactId>sbm-support-weblogic</artifactId>
-            <version>0.12.1-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>org.springframework.sbm</groupId>
             <artifactId>openrewrite-spring-recipes</artifactId>

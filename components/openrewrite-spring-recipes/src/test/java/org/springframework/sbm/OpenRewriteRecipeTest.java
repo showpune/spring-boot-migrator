@@ -26,7 +26,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
 import java.lang.reflect.InvocationTargetException;
-import java.util.Arrays;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
@@ -92,7 +91,7 @@ public class OpenRewriteRecipeTest {
     }
 
     private Recipe mockedOrRecipe(Condition c) {
-        return OrRecipesConfig.createRecipe("the-name", mock(org.openrewrite.Recipe.class), c);
+        return SpringOpenRewriteRecipe.createRecipe("the-name", mock(org.openrewrite.Recipe.class), c);
     }
 
 }
